@@ -28,110 +28,23 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.javafaker#javafaker;0.14 {compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.javafaker#javafaker;0.14 {compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/com.github.javafaker/javafaker//0.14/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.javafaker#javafaker;0.14[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.javafaker#javafaker;0.14[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom (0.14)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.javafaker#javafaker;0.14!javafaker.pom(pom.original) (151ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.sonatype.oss/oss-parent//7/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.sonatype.oss#oss-parent;7[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.sonatype.oss#oss-parent;7[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (7)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.sonatype.oss#oss-parent;7!oss-parent.pom(pom.original) (141ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.sonatype.oss/oss-parent//7/jars/oss-parent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.sbt/preloaded/org.sonatype.oss/oss-parent/7/jars/oss-parent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/jasonhodges/.sbt/preloaded/org/sonatype/oss/oss-parent/7/oss-parent-7.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/com.github.javafaker/javafaker//0.14/jars/javafaker.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.javafaker#javafaker;0.14 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.javafaker#javafaker;0.14[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.javafaker#javafaker;0.14 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.apache.commons#commons-lang3;3.5 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-lang3;3.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.apache.commons/commons-lang3//3.5/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.commons#commons-lang3;3.5[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.commons#commons-lang3;3.5[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom (3.5)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.5!commons-lang3.pom(pom.original) (174ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;41 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;41 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.apache.commons/commons-parent//41/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache.commons#commons-parent;41[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache.commons#commons-parent;41[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom (41)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache.commons#commons-parent;41!commons-parent.pom(pom.original) (178ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache#apache;18 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.apache#apache;18 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.apache/apache//18/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.apache#apache;18[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.apache#apache;18[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom (18)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.apache#apache;18!apache.pom(pom.original) (141ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.apache/apache//18/jars/apache.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.sbt/preloaded/org.apache/apache/18/jars/apache.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/jasonhodges/.sbt/preloaded/org/apache/apache/18/apache-18.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.apache.commons/commons-parent//41/jars/commons-parent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.sbt/preloaded/org.apache.commons/commons-parent/41/jars/commons-parent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/jasonhodges/.sbt/preloaded/org/apache/commons/commons-parent/41/commons-parent-41.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.apache.commons/commons-lang3//3.5/jars/commons-lang3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.commons#commons-lang3;3.5 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.commons#commons-lang3;3.5 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.apache.commons#commons-lang3;3.5 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.apache.commons#commons-lang3;3.5 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.apache.commons#commons-lang3;3.5 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.yaml#snakeyaml;1.19 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.yaml#snakeyaml;1.19 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.yaml/snakeyaml//1.19/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.yaml#snakeyaml;1.19[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.yaml#snakeyaml;1.19[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom (1.19)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.yaml#snakeyaml;1.19!snakeyaml.pom(pom.original) (142ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/org.yaml/snakeyaml//1.19/bundles/snakeyaml.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.yaml#snakeyaml;1.19 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.yaml#snakeyaml;1.19[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.yaml#snakeyaml;1.19 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.yaml#snakeyaml;1.19 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->org.yaml#snakeyaml;1.19 [compile->compile][0m
@@ -145,41 +58,15 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.mifmif#generex;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.mifmif#generex;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/com.github.mifmif/generex//1.0.2/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.mifmif#generex;1.0.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.mifmif#generex;1.0.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom (1.0.2)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.mifmif#generex;1.0.2!generex.pom(pom.original) (143ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/com.github.mifmif/generex//1.0.2/jars/generex.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.mifmif#generex;1.0.2 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.mifmif#generex;1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.mifmif#generex;1.0.2 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->com.github.mifmif#generex;1.0.2 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: dk.brics.automaton#automaton;1.11-8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: dk.brics.automaton#automaton;1.11-8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/dk.brics.automaton/automaton//1.11-8/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for dk.brics.automaton#automaton;1.11-8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for dk.brics.automaton#automaton;1.11-8[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom (1.11-8)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] dk.brics.automaton#automaton;1.11-8!automaton.pom(pom.original) (137ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/dk.brics.automaton/automaton//1.11-8/jars/automaton.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found dk.brics.automaton#automaton;1.11-8 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: dk.brics.automaton#automaton;1.11-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found dk.brics.automaton#automaton;1.11-8 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->com.github.mifmif#generex;1.0.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->com.github.mifmif#generex;1.0.2 [compile->compile][0m
@@ -192,6 +79,54 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->com.github.mifmif#generex;1.0.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.javafaker#javafaker;0.14->com.github.mifmif#generex;1.0.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: it.bitbl#scala-faker_2.12;0.4 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: it.bitbl#scala-faker_2.12;0.4 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/it.bitbl/scala-faker_2.12//0.4/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for it.bitbl#scala-faker_2.12;0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for it.bitbl#scala-faker_2.12;0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.pom (0.4)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] it.bitbl#scala-faker_2.12;0.4!scala-faker_2.12.pom(pom.original) (246ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/jasonhodges/.ivy2/local/it.bitbl/scala-faker_2.12//0.4/jars/scala-faker_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found it.bitbl#scala-faker_2.12;0.4 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [compile][0m
@@ -247,6 +182,39 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [test][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [runtime][0m
@@ -315,6 +283,41 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.3 [test->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -347,8 +350,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatest#scalatest_2.12;3.0.3->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatest#scalatest_2.12;3.0.3->org.scala-lang#scala-library;2.12.3 [compile->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatest#scalatest_2.12;3.0.3->org.scala-lang#scala-library;2.12.3 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatest#scalatest_2.12;3.0.3->org.scalactic#scalactic_2.12;3.0.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -656,6 +657,43 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -738,6 +776,43 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for com.example#datagen_2.12;0.1.0-SNAPSHOT [test-internal][0m
@@ -844,6 +919,47 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.mifmif#generex;1.0.2->dk.brics.automaton#automaton;1.11-8 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->com.github.javafaker#javafaker;0.14 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.scala-lang#scala-library;2.12.3 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.13 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies it.bitbl#scala-faker_2.12;0.4->org.yaml#snakeyaml;1.19 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->it.bitbl#scala-faker_2.12;0.4 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.example#datagen_2.12;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.3 [test->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -1251,131 +1367,86 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.3!scalatest_2.12.jar(bundle)[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar ...[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (36ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (37ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (38ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (39ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (41ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (41ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.javafaker#javafaker;0.14!javafaker.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(bundle)[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (42ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.5!commons-lang3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.mifmif#generex;1.0.2!generex.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/jasonhodges/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (9ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (10ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.yaml#snakeyaml;1.19!snakeyaml.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] dk.brics.automaton#automaton;1.11-8!automaton.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (7ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/jasonhodges/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (13ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -1384,25 +1455,19 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-android.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-android.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-android.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] com.github.javafaker#javafaker;0.14!javafaker.jar (363ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] com.github.mifmif#generex;1.0.2!generex.jar (381ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-android.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-android.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.yaml#snakeyaml;1.19!snakeyaml.jar (433ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] dk.brics.automaton#automaton;1.11-8!automaton.jar (447ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.5!commons-lang3.jar (583ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 3460ms :: artifacts dl 650ms[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (15ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/jasonhodges/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/it/bitbl/scala-faker_2.12/0.4/scala-faker_2.12-0.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] it.bitbl#scala-faker_2.12;0.4!scala-faker_2.12.jar (207ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 763ms :: artifacts dl 210ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#datagen_2.12;0.1.0-SNAPSHOT compile produced in /Users/jasonhodges/Documents/scala-projects/datagen/target/scala-2.12/resolution-cache/reports/com.example-datagen_2.12-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#datagen_2.12;0.1.0-SNAPSHOT runtime produced in /Users/jasonhodges/Documents/scala-projects/datagen/target/scala-2.12/resolution-cache/reports/com.example-datagen_2.12-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#datagen_2.12;0.1.0-SNAPSHOT test produced in /Users/jasonhodges/Documents/scala-projects/datagen/target/scala-2.12/resolution-cache/reports/com.example-datagen_2.12-test.xml[0m
@@ -1414,5 +1479,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#datagen_2.12;0.1.0-SNAPSHOT plugin produced in /Users/jasonhodges/Documents/scala-projects/datagen/target/scala-2.12/resolution-cache/reports/com.example-datagen_2.12-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#datagen_2.12;0.1.0-SNAPSHOT pom produced in /Users/jasonhodges/Documents/scala-projects/datagen/target/scala-2.12/resolution-cache/reports/com.example-datagen_2.12-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for com.example#datagen_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/jasonhodges/Documents/scala-projects/datagen/target/scala-2.12/resolution-cache/reports/com.example-datagen_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (3460ms resolve - 650ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (763ms resolve - 210ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

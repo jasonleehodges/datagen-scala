@@ -4,7 +4,7 @@
 		module="datagen_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20171221185609"
+		publication="20171222111303"
 	>
 		<description>
 		datagen
@@ -34,6 +34,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.yaml" name="snakeyaml" rev="1.5" conf="compile->default(compile)"/>
 		<dependency org="com.github.javafaker" name="javafaker" rev="0.14" conf="compile->default(compile)"/>
+		<dependency org="it.bitbl" name="scala-faker_2.12" rev="0.4" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.3" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

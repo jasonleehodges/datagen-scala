@@ -9,6 +9,5 @@ lazy val root = (project in file(".")).
     )),
     name := "datagen",
     libraryDependencies += "org.yaml" % "snakeyaml" % "1.5",
-    libraryDependencies += "com.github.javafaker" % "javafaker" % "0.14",
-    libraryDependencies += scalaTest % Test
+    libraryDependencies += "com.github.javafaker" % "javafaker" % "0.14",    libraryDependencies += scalaTest % Test
   )
