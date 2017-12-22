@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="datagen_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20171221185609"/>
+	<dependencies>
+		<module organisation="com.github.javafaker" name="javafaker">
+			<revision name="0.14" status="release" pubdate="20171026145429" resolver="public" artresolver="public" homepage="http://github.com/DiUS/java-faker" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5544" time="151" location="/Users/jasonhodges/.ivy2/cache/com.github.javafaker/javafaker/ivy-0.14.xml" searched="true" original-local-location="/Users/jasonhodges/.ivy2/cache/com.github.javafaker/javafaker/ivy-0.14.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.pom"/>
+				<caller organisation="com.example" name="datagen_2.12" conf="compile" rev="0.14" rev-constraint-default="0.14" rev-constraint-dynamic="0.14" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javafaker" type="jar" ext="jar" status="successful" details="" size="543552" time="363" location="/Users/jasonhodges/.ivy2/cache/com.github.javafaker/javafaker/jars/javafaker-0.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/javafaker/javafaker/0.14/javafaker-0.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mifmif" name="generex">
+			<revision name="1.0.2" status="release" pubdate="20161030084157" resolver="public" artresolver="public" homepage="https://github.com/mifmif/Generex/tree/master" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="11038" time="143" location="/Users/jasonhodges/.ivy2/cache/com.github.mifmif/generex/ivy-1.0.2.xml" searched="true" original-local-location="/Users/jasonhodges/.ivy2/cache/com.github.mifmif/generex/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom"/>
+				<caller organisation="com.github.javafaker" name="javafaker" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.14"/>
+				<artifacts>
+					<artifact name="generex" type="jar" ext="jar" status="successful" details="" size="14395" time="381" location="/Users/jasonhodges/.ivy2/cache/com.github.mifmif/generex/jars/generex-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dk.brics.automaton" name="automaton">
+			<revision name="1.11-8" status="release" pubdate="20111204080457" resolver="public" artresolver="public" homepage="http://www.brics.dk/automaton/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1076" time="137" location="/Users/jasonhodges/.ivy2/cache/dk.brics.automaton/automaton/ivy-1.11-8.xml" searched="true" original-local-location="/Users/jasonhodges/.ivy2/cache/dk.brics.automaton/automaton/ivy-1.11-8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom"/>
+				<caller organisation="com.github.mifmif" name="generex" conf="compile, runtime" rev="1.11-8" rev-constraint-default="1.11-8" rev-constraint-dynamic="1.11-8" callerrev="1.0.2"/>
+				<artifacts>
+					<artifact name="automaton" type="jar" ext="jar" status="successful" details="" size="176285" time="447" location="/Users/jasonhodges/.ivy2/cache/dk.brics.automaton/automaton/jars/automaton-1.11-8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.19" status="release" pubdate="20171014054506" resolver="public" artresolver="public" homepage="http://www.snakeyaml.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="35254" time="142" location="/Users/jasonhodges/.ivy2/cache/org.yaml/snakeyaml/ivy-1.19.xml" searched="true" original-local-location="/Users/jasonhodges/.ivy2/cache/org.yaml/snakeyaml/ivy-1.19.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom"/>
+				<caller organisation="com.github.javafaker" name="javafaker" conf="default, compile, runtime, master" rev="1.19" rev-constraint-default="1.19" rev-constraint-dynamic="1.19" callerrev="0.14"/>
+				<caller organisation="com.example" name="datagen_2.12" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="jar" ext="jar" extra-classifier="android" status="successful" details="" size="292284" time="433" location="/Users/jasonhodges/.ivy2/cache/org.yaml/snakeyaml/jars/snakeyaml-1.19-android.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19-android.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.5" status="release" pubdate="20100308052625" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://code.google.com/p/snakeyaml/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3220" time="0" location="/Users/jasonhodges/.ivy2/cache/org.yaml/snakeyaml/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.5/snakeyaml-1.5.pom"/>
+				<evicted-by rev="1.19"/>
+				<caller organisation="com.example" name="datagen_2.12" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.5" status="release" pubdate="20161013135341" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="23347" time="174" location="/Users/jasonhodges/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.5.xml" searched="true" original-local-location="/Users/jasonhodges/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom"/>
+				<caller organisation="com.github.javafaker" name="javafaker" conf="default, compile, runtime, master" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="0.14"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="successful" details="" size="479881" time="583" location="/Users/jasonhodges/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.3" status="release" pubdate="20170725044730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/jasonhodges/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom"/>
+				<caller organisation="com.example" name="datagen_2.12" conf="compile" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5246851" time="0" location="/Users/jasonhodges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

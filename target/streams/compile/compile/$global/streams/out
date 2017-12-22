@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/jasonhodges/Documents/scala-projects/datagen/src/main/scala/example/DataGen.scala:33:31: not found: value faker[0m
+[0m[[0m[31merror[0m] [0m[0m          var campaign_name = faker.company.catchPhrase()[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jasonhodges/Documents/scala-projects/datagen/src/main/scala/example/DataGen.scala:34:25: not found: value faker[0m
+[0m[[0m[31merror[0m] [0m[0m          var address = faker.address.streetAddress(true)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jasonhodges/Documents/scala-projects/datagen/src/main/scala/example/DataGen.scala:37:33: not found: value randDate[0m
+[0m[[0m[31merror[0m] [0m[0m          var date: LocalDate = randDate(start, end)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jasonhodges/Documents/scala-projects/datagen/src/main/scala/example/DataGen.scala:38:29: not found: value random[0m
+[0m[[0m[31merror[0m] [0m[0m          var clicks: Int = random.nextInt(1000)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jasonhodges/Documents/scala-projects/datagen/src/main/scala/example/DataGen.scala:39:34: not found: value random[0m
+[0m[[0m[31merror[0m] [0m[0m          var impressions: Int = random.nextInt(1000000)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jasonhodges/Documents/scala-projects/datagen/src/main/scala/example/DataGen.scala:40:27: not found: value faker[0m
+[0m[[0m[31merror[0m] [0m[0m          var page_name = faker.internet.url()[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
